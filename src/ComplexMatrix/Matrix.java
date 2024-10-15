@@ -132,7 +132,7 @@ public class Matrix {
         return det;
     }
 
-    //get the minor of the matrix
+
     private ComplexNumber calcMinor(int i, int j) {
         Matrix minor = new Matrix(this.getCollSize() - 1, this.getRowSize() - 1);
 
